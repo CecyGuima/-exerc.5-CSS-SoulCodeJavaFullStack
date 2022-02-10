@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(221, 97, 25);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    flex-wrap: wrap;
+  }
+  
+  .grow {
+    width: 100%; /* porcentagem referente ao 1, item maior */
+    height: 60px;
+    background: blue;
+    border: 2px solid white;
+    margin: 2px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .c2{
+    width: 49.5%; /* porcentagem referente a 2 itens descontando a borda*/
+    height: 60px;
+    background: blue;
+    border: 2px solid white;
+    margin: 2px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c3{
+    width: 32.9%; /* porcentagem referente a 3 itens descontando a borda*/
+    height: 60px;
+    background: blue;
+    border: 2px solid white;
+    margin: 2px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c4{
+    width: 24.9%; /* porcentagem referente a 4 itens descontando a borda*/
+    height: 60px;
+    background: blue;
+    border: 2px solid white;
+    margin: 2px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c6{
+    width: 16.5%; /* porcentagem referente a 6 itens descontando a borda*/
+    height: 60px;
+    background: blue;
+    border: 2px solid white;
+    margin: 2px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c12{
+    width: 8.3%; /* porcentagem referente a 12 itens descontando a borda*/
+    height: 60px;
+    background: blue;
+    border: 2px solid white;
+    margin: 2px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
