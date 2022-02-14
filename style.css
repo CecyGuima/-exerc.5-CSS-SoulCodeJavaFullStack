@@ -6,14 +6,17 @@ body {
   
   .container {
     display: flex;
-    justify-content: space-evenly;
-    height: 30vh;
+    justify-content: center;
+    margin-top: 2px;
+    width: 100vw;
+    height: 50px;
     flex-wrap: wrap;
+    padding: 2px;
   }
   
   .grow {
-    width: 100%; /* porcentagem referente ao 1, item maior */
-    height: 60px;
+    width: 100vw; /* valor referente ao 1, item maior */
+    height: 70px;
     background: blue;
     border: 2px solid white;
     margin: 2px;
@@ -26,8 +29,8 @@ body {
   }
 
   .c2{
-    width: 49.5%; /* porcentagem referente a 2 itens descontando a borda*/
-    height: 60px;
+    width: 49vw; /* valor referente a 2 itens descontando a borda*/
+    height: 70px;
     background: blue;
     border: 2px solid white;
     margin: 2px;
@@ -39,8 +42,8 @@ body {
   }
 
   .c3{
-    width: 32.9%; /* porcentagem referente a 3 itens descontando a borda*/
-    height: 60px;
+    width: 32.5vw; /* valor referente a 3 itens descontando a borda*/
+    height: 70px;
     background: blue;
     border: 2px solid white;
     margin: 2px;
@@ -52,8 +55,8 @@ body {
   }
 
   .c4{
-    width: 24.9%; /* porcentagem referente a 4 itens descontando a borda*/
-    height: 60px;
+    width: 24.3vw; /* valor referente a 4 itens descontando a borda*/
+    height: 70px;
     background: blue;
     border: 2px solid white;
     margin: 2px;
@@ -65,8 +68,8 @@ body {
   }
 
   .c6{
-    width: 16.5%; /* porcentagem referente a 6 itens descontando a borda*/
-    height: 60px;
+    width: 16vw; /* valor referente a 6 itens descontando a borda*/
+    height: 70px;
     background: blue;
     border: 2px solid white;
     margin: 2px;
@@ -78,8 +81,8 @@ body {
   }
 
   .c12{
-    width: 8.3%; /* porcentagem referente a 12 itens descontando a borda*/
-    height: 60px;
+    width: 7.7vw; /* valor referente a 12 itens descontando a borda*/
+    height: 70px;
     background: blue;
     border: 2px solid white;
     margin: 2px;
